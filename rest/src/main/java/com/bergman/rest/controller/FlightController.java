@@ -1,6 +1,6 @@
-package com.bergman.rest.controllers;
+package com.bergman.rest.controller;
 
-import com.bergman.repository.repositories.entities.Flight;
+import com.bergman.repository.entity.Flight;
 import com.bergman.service.exceptions.FlightNotFoundException;
 import com.bergman.service.services.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
