@@ -1,7 +1,7 @@
 package com.bergman.service.services;
 
+import com.bergman.repository.entity.Flight;
 import com.bergman.repository.repositories.FlightRepository;
-import com.bergman.repository.repositories.entities.Flight;
 import com.bergman.service.exceptions.FlightNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
